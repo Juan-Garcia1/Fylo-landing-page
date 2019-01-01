@@ -1,0 +1,131 @@
+@media(max-width: 375px) {
+  .features-sec::before {
+      content: "";
+      background: url("../images/bg-curvy-mobile.svg") no-repeat center center / cover;
+      position: absolute;
+      top: -280px;
+      left: 0;
+      right: 0;
+      height: 280px;
+      z-index: -1;
+    }
+  }
+
+@media(min-width: 425px) {
+  .features-sec::before {
+    content: "";
+      background: url("../images/bg-curvy-desktop.svg") no-repeat center center / cover;
+      position: absolute;
+      top: -280px;
+      left: 0;
+      right: 0;
+      height: 280px;
+      z-index: -1;
+  }
+}
+
+@media(min-width: 768px) {
+  .nav {
+    padding: 40px 0;
+  }
+
+  .hero {
+    &__title {
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    &__paragraph {
+      max-width: 470px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    &__img {
+      width: 35%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .features {
+    margin-bottom: 50px;
+    &__img {
+      height: 90px;
+    }
+  }
+  .security-icon {
+    width: 80px;
+  }
+  .files-icon {
+    height: 70px;
+  }
+  .cta {
+    max-width: 600px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .col {
+    flex: 1;
+  }
+  .col--sm {
+    display: flex;
+    font-display: column;
+    flex-basis: 50%;
+    justify-content: center;
+  }
+  .double-col {
+    flex: 2;
+  }
+  .features {
+    padding: 0 90px;
+  }
+  .features-sec::before {
+    top: -420px;
+    height: 420px
+  }
+  .productive {
+    &__img {
+      margin-bottom: 0;
+    }
+    &__title {
+      text-align: initial;
+      font-size: 2rem;
+      max-width: 400px;
+      line-height: 1.125;
+      margin-bottom: 0;
+    }
+    &__title, &__paragraph, &__link {
+      padding: 0 14px;
+    }
+  }
+  .cta {
+    max-width: 700px;
+  }
+  .cta__form {
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    &-input {
+      flex: 1;
+      margin-bottom: 0;
+      margin-right: 15px;
+    }
+  }
+}
+
+@media(min-width: 1440px) {
+  .features-sec::before {
+    top: -450px;
+    height: 450px;
+  }
+}
+
+@media(min-width: 2560px) {
+  .hero {
+    padding: 180px 0;
+  }
+  .features-sec::before {
+    top: -800px;
+    height: 800px;
+  }
+}

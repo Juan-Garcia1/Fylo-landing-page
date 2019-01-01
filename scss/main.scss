@@ -1,0 +1,47 @@
+@import "./base";
+@import "./nav";
+@import "./header";
+@import "./features-section";
+@import "./productive-section";
+@import "./quotes-section";
+@import "./footer";
+@import "./media-queries";
+
+.container {
+  width: 85vw;
+  margin: auto;
+}
+
+.link {
+  color: hsl(176, 68%, 64%);
+}
+
+.btn {
+  background: none;
+  border: 0;
+  background: darken(hsl(176, 68%, 64%), 10%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px 18px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn--big {
+  padding: 12px 70px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  background: hsl(218, 28%, 13%)
+}

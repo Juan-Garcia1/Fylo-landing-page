@@ -1,0 +1,62 @@
+footer {
+  background: hsl(216, 53%, 9%);
+}
+
+.cta {
+  margin: auto; 
+  max-width: 380px;
+  padding: 40px 20px;
+  text-align: center;
+  transform: translateY(-50px);
+  background: hsl(217, 28%, 15%);
+  box-shadow: 0 2px 6px 0px hsla(0, 0%, 0%, 0.2);
+  border-radius: 10px;
+  &__title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  &__paragraph {
+    font-size: .95rem;
+    color: hsl(0, 0%, 80%);
+    margin-bottom: 25px;
+  }
+}
+
+.cta__form {
+  display: flex;
+  flex-direction: column;
+  &-input {
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 50px;
+    margin-bottom: 18px;
+  }
+  &-btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.footer-logo {
+  width: 100px;
+}
+.phone-number, .email {
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+
+.phone-number::before,
+.email::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-bottom: -3px;
+}
+.phone-number::before {
+  background: url("/images/icon-phone.svg") no-repeat center center;
+}
+.email::before {
+  background: url("/images/icon-email.svg") no-repeat center center;
+}

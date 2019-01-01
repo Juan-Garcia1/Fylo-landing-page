@@ -1,0 +1,27 @@
+.productive {
+  padding: 20px 0;
+  &__img {
+    width: 80%;
+    display: block;
+    margin: 0 auto 30px;
+  }
+  &__title {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+  &__paragraph {
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 80%);
+    &:nth-last-child(2) {
+      margin-bottom: 18px;
+    }
+  }
+  &__link::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("/images/icon-arrow.svg") no-repeat center center;
+    margin-bottom: -9px;
+  }
+}

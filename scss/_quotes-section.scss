@@ -1,0 +1,40 @@
+.quotes-sec {
+  padding: 100px 0;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: url("/images/bg-quotes.png") no-repeat center center / cover;
+    height: 60px;
+    width: 60px;
+  }
+}
+.quote-container {
+  background: hsl(219, 30%, 18%);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.2);
+}
+.quote {
+  color: hsl(0, 0%, 80%);
+  margin-bottom: 25px;
+}
+.person {
+  display: flex;
+  align-items: center;
+  &__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 14px;
+  }
+  &__name {
+    margin: 0;
+  }
+  &__title {
+    color: hsl(0, 0%, 80%);
+  }
+}

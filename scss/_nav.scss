@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  &__logo {
+    width: 90px;
+    height: 30px;
+  }
+}
+
+.nav__list {
+  display: flex;
+  .nav__list-item {
+    margin: 0 5px;
+    &__link {
+      display: block;
+      padding: 5px;
+      color: lightgray;
+      &:hover {
+        color: darken(hsl(176, 68%, 64%), 10%);
+      }
+    }
+  }
+}
