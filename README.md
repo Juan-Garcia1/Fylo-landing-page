@@ -2,6 +2,8 @@
 
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
+[View landing page](https://juan-garcia1.github.io/Fylo-landing-page/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge. 
